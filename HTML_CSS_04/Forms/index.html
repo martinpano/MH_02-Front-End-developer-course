@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Forms in HTML</title>
+</head>
+
+<body>
+
+    <!-- Basic form structure -->
+    <h2>Forms</h2>
+    <fieldset>
+        <legend>Registration form</legend>
+        <form action="" method="POST">
+            <label for="firstName">First name:</label>
+            <input type="text" name="firstName" placeholder="Ex. Bob" required>
+            <br>
+            <br>
+    
+            <label for="lastName">Last name:</label>
+            <input type="text" name="lastName" placeholder="Ex. Bobsky" required>
+            <br>
+            <br>
+    
+            <label for="username">Username:</label>
+            <input type="text" name="username" placeholder="bob_92" required>
+            <br>
+            <br>
+    
+            <label for="password">Password:</label>
+            <input type="password" name="password" required>
+            <br>
+            <br>
+    
+            <label for="yourself">Describe yourself in a few words:</label> <br>
+            <textarea name="yourself" cols="50" rows="5" placeholder="Responsible, smart, hard working"></textarea>
+            <br>
+            <br>
+    
+            <p>Select your gender:</p>
+            <input type="radio" name="gender" value="male">
+            <label for="male">Male</label>
+            <br>
+            <input type="radio" name="gender" value="female">
+            <label for="female">Female</label>
+            <br>
+            <br>
+    
+            <p>Do you want to subscribe for a newsletter</p>
+            <input type="checkbox" name="subscribe_yes" value="yes">
+            <label for="subscribe">Yes, please send me news!</label>
+            <input type="checkbox" name="subscribe_no" value="no">
+            <label for="subscribe">No, i don't want to see news!</label>
+    
+            <br>
+            <br>
+    
+            <label for="city">Select your city:</label>
+            <select name="city_select">
+                <option value="default">----Select your city----</option>
+                <option value="skopje">Skopje</option>
+                <option value="veles">Veles</option>
+                <option value="bitola">Bitola</option>
+            </select>
+    
+            <br>
+            <br>
+            <label for="hobbies">Select your hobbies:</label> <br>
+            <select name="hobbies" multiple="multiple" size="3">
+                <option value="swimming">Swimming</option>
+                <option value="cycling">Cycling</option>
+                <option value="running">Running</option>
+                <option value="reading">Reading</option>
+            </select>
+    
+            <br>
+            <br>
+            <label for="file">Attach your cv</label> <br>
+            <input type="file" name="file_upload">
+            <br>
+            <br>
+            <input type="hidden" value="Martin">
+    
+            <input type="submit" value="Save">
+            <button>
+                Add new user
+            </button>
+        </form>
+    </fieldset>
+
+    <fieldset>
+        <legend>Specific inputs in HTML5</legend>
+        <form action="" method="POST">
+            <input type="date" name="birthdate">
+            <label for="url">URL:</label>
+            <input type="url" name="url">
+            <label for="number">Number:</label>
+            <input type="number" name="number">
+            <input type="search" value="Search" />
+            <br>
+            <br>
+            <input type="submit" value="Save">
+
+        </form>
+    </fieldset>
+   
+    <br>
+    <br>
+    <button>
+        Add
+        <img src="./img/plus.png" alt="Add sign button" width="10px">
+    </button>
+</body>
+
+</html>

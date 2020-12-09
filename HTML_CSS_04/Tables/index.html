@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Tables in HTML</title>
+</head>
+
+<body>
+
+    <!-- Basic HTML table structure -->
+    <h2>Basic table structure</h2>
+    <table border="1">
+        <tbody>
+            <!-- First row -->
+            <tr>
+                <td>1, 1</td>
+                <td>1, 2</td>
+            </tr>
+            <!-- Second row -->
+            <tr>
+                <td>2, 1</td>
+                <td>2, 2</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+
+    <h2>Complete table structure</h2>
+    <table border="1" cellpadding="10" cellspacing="1">
+        <thead>
+            <th>No.</th>
+            <th>Image</th>
+            <th>First name</th>
+            <th>Last name</th>
+            <th>Age</th>
+            <th>Actions</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1.</td>
+                <td>
+                    <img src="./img/1.jfif" alt="Image of a user" width="70px">
+                </td>
+                <td>Martin</td>
+                <td>Panovski</td>
+                <td>27</td>
+                <td>
+                    <a href="./edit.html">Edit</a> |
+                    <a href="./delete.html">Delete</a>
+                </td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>
+                    <img src="./img/2.jfif" alt="Image of a user" width="70px">
+                </td>
+                <td>Bob</td>
+                <td>Bobsky</td>
+                <td>25</td>
+                <td>
+                    <a href="./edit.html">Edit</a> |
+                    <a href="./delete.html">Delete</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+
+    <h2>Colspan</h2>
+    <table border="1" cellpadding="5">
+        <thead>
+            <th></th>
+            <th>9am</th>
+            <th>10am</th>
+            <th>11am</th>
+            <th>12pm</th>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Monday</th>
+                <td colspan="2">
+                    HTML/CSS lecture
+                </td>
+                <td>No lectures</td>
+                <td rowspan="2">JavaScript lecture</td>
+            </tr>
+            <tr>
+                <th>Tuesday</th>
+                <td colspan="3">
+                    HTML/CSS lecture
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+           <th colspan="5">Lectures time schedule</th>
+        </tfoot>
+    </table>
+
+    <hr>
+    <h2>Using caption in table</h2>
+    <table border="1">
+        <caption>
+            <strong>Table representation of the best meat recipes</strong>  
+        </caption>
+        <thead>
+            <th>No.</th>
+            <th>Name</th>
+            <th>Time to prepare</th>
+            <th>Link</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Key west chicken</td>
+                <td>60 min</td>
+                <td>
+                    <a href="#">Link to the recipe</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
