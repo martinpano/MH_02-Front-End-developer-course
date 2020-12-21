@@ -1,0 +1,41 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: black;
+}
+
+
+h1, h2, h5 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkblue;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: greenyellow;
+}
+
+.unordered-list {
+    font-size: 40px;
+    color: orange;
+}
+
+#main-content{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: black;
+}
+
+.unordered-list p {
+    color: green !important;
+}
+
+.unordered-list p {
+    color: blue;
+}
+
+
