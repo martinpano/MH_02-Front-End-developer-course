@@ -1,0 +1,100 @@
+
+body {
+    font-size: 16px;
+}
+
+#first {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+
+#first p {
+    font-size: 80%;
+}
+
+.paragraph {
+    /* font-size: 60px; */
+    font-size: 1.3em;
+}
+
+.ems li{
+    font-size: 1.3em;
+}
+
+.rems li {
+    font-size: 1.3rem;
+}
+
+
+.weight {
+    /* font-weight: bold; */
+    font-weight: 900;
+}
+
+.style {
+    font-style: oblique;
+}
+
+.transform {
+    text-transform: capitalize;
+}
+
+.decoration {
+    /* text-decoration: overline; */
+    text-decoration: line-through;
+    line-height: 1.2em;
+
+    letter-spacing: 0.3em;
+
+    word-spacing: 1.5em;
+}
+
+.align {
+    /* text-align: center; */
+    text-align: left;
+    /* text-align: right; */
+    /* text-align: justify; */
+}
+
+#vertical-align {
+    vertical-align: text-top;
+}
+
+.shadow {
+    text-shadow: 2px 2px 50px black;
+}
+
+.align::first-letter {
+    font-size: 50px;
+}
+
+.align::first-line {
+    font-style: italic;
+}
+
+
+ul>li a:link {
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: bold
+}
+
+ul>li a:visited {
+    color: yellow;
+}
+
+ul>li a:hover {
+    color: green;
+    text-shadow: 1px 1px 1px black;
+    background-color: coral;
+}
+
+ul>li a:focus {
+    font-size: 30px;
+}
+
+ul>li a:active {
+    color: purple;
+    font-style: italic;
+}
