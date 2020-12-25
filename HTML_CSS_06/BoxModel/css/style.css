@@ -1,0 +1,39 @@
+#first-box {
+    background-color: red;
+    min-width: 600px;
+    width: 40%;
+    height: 500px;
+    min-height: 400px;
+    /* overflow: hidden; */
+    overflow: auto;
+}
+
+#second-box {
+    background-color: yellow;
+    width: 950px;
+    height: 200px;
+
+
+    /* border-width: 5px;
+    border-style: dashed;
+    border-color: black;
+    border-top-width: 10px; */
+    border: 5px solid black;
+
+/* 
+    margin-left: 100px;
+    margin-top: 20px; */
+    
+    margin: 20px;
+
+    margin: 10px 0px 50px 0px;
+}
+
+#third-box {
+    background-color: green;
+    width: 450px;
+    height: 100px;
+
+    padding: 10px;
+}
+
