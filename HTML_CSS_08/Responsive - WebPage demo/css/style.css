@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#logo img {
+    width: 80px;
+}
+
+#container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* Navigation */
+nav {
+    background-color: white;
+    height: 100px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1000;
+}
+
+#logo {
+    float: left;
+    padding-top: 10px;
+}
+
+#menu {
+    float: right;
+    line-height: 100px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: dodgerblue;
+    margin: 0 20px;
+    font-size: 1.4em;
+}
+
+#menu a:hover {
+    color: #2d6092;
+}
+
+#hamburger {
+    display: none;
+}
+
+header {
+    background-color: #737e8a;
+    text-align: center;
+    padding: 160px 0;
+    color: white;
+}
+
+.header-container h1 {
+    font-size: 3.5em;
+    font-weight: 400;
+    margin: 15px 0;
+}
+
+.header-container h4 {
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.header-container button {
+    border: none;
+    background-color: #444f5c;
+    font-size: 24px;
+    padding: 15px 50px;
+    border-radius: 50px;
+    margin-top: 15px;
+}
+
+/* Cards */
+.card {
+    background-color: white;
+    text-align: center;
+    padding: 60px 30px;
+    margin: 0 20px;
+}
+
+.card img {
+    width: 100px;
+}
+
+.tech {
+    float: left;
+    width: 28%;
+    margin-bottom: 100px;
+}
+
+.prod {
+    float: left;
+    width: 28%;
+}
+
+.work {
+    float: left;
+    width: 28%;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    position: relative;
+    bottom: 100px;
+}
+
+
+/* Responsive design  */
+
+@media screen and (max-width: 780px) {
+    .tech {
+        float: none;
+        width: 70%;
+    }
+    .prod {
+        float: none;
+        width: 70%;
+    }
+    .work {
+        float: none;
+        width: 70%;
+    }
+    .card {
+        margin: 20px auto;
+    }
+}
+
+@media screen and (max-width: 620px){
+    #menu {
+        display: none;
+    }
+
+    #hamburger {
+        display: initial;
+        float: right;
+        color: black;
+        font-size: 2em;
+        padding-right: 10px;
+    }
+
+    .header-container h1 {
+        font-size: 2.5em;
+        font-weight: 300;
+        margin: 10px 0;
+    }
+
+    .header-container button {
+        border: none;
+        background-color: blue;
+        font-size: 12px;
+        padding: 15px 50px;
+        border-radius: 20px;
+    }
+}
+
+
+/* @media all and (min-width: 320px) {}
+
+@media print and (min-width: 320px) {}  */
