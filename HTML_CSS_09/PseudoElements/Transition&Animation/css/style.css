@@ -1,0 +1,29 @@
+#definitions-container {
+    padding: 10px;
+    margin: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    line-height: 40px;
+    cursor: copy;
+}
+
+#definitions-container p::before {
+    content: "IMPORTANT! You must read this!";
+    /* content: url('https://i.pinimg.com/originals/d5/46/53/d54653b0f7b10d0f46f8b0a2cb1e2615.png'); */
+    background-color: red;
+    color: yellow;
+    width: 5%;
+}
+
+#definitions-container p::after {
+    content: " - Remember this! It is usually part of exam!";
+    /* content: url('https://i.pinimg.com/originals/d5/46/53/d54653b0f7b10d0f46f8b0a2cb1e2615.png'); */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+::selection{
+    color: yellow;
+    background-color: red;
+    outline: blue;
+}
